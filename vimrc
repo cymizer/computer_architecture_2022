@@ -107,10 +107,12 @@ Plugin 'easymotion/vim-easymotion'
 "Plugin 'aceofall/gtags.vim'
 
 " GTAGS
+" Reference:
+" https://miaopei.github.io/2020/09/20/Vim/VimNote/#VIM-IDE-%E6%89%93%E9%80%A0
 " 静态语法检查插件
 Plugin 'w0rp/ale'
 
-" " Vim自动生成 tags 插件 vim-gutentag
+" Vim自动生成 tags 插件 vim-gutentag
 Plugin 'ludovicchabant/vim-gutentags'
 Plugin 'skywind3000/gutentags_plus'
 Plugin 'skywind3000/vim-preview'
@@ -173,7 +175,14 @@ nmap <F7> :set invnumber<CR>
 " 清除搜尋結果的語法突顯
 nmap cs :noh<CR>
 
-map <LEADER>z :bd<CR>
+" 刪除 buffer 內容
+nnoremap <LEADER>z :bd<CR>
+" buffer 切換, :ls 可以看目前使用狀態
+nnoremap zz <C-^>
+"把buffer  展開為tabe
+nnoremap <LEADER>za :tab ba<CR>
+
+
 " alias
 " 冒號命令的別名，語法等等會講
 " 常用就知道為什麼要設這個（按冒號時要按 <shift>，然後下一個字就很常變大寫，簡稱手殘）
