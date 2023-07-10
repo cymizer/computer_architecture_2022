@@ -13,3 +13,6 @@ let gtags_file=findfile("GTAGS", ";") "查找 gtags 文件
 if !empty(gtags_file)
     exe "cs add" gtags_file
 endif
+
+
+https://hanleylee.com/articles/tracing-code-in-vim/
