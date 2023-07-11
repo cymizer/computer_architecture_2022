@@ -23,3 +23,11 @@ https://hanleylee.com/articles/tracing-code-in-vim/
 https://learnku.com/articles/28249
 
 https://zhuanlan.zhihu.com/p/38477934
+
+https://descent-incoming.blogspot.com/2016/08/globalgtags-with-vim.html
+
+
+https://medium.com/heynote/use-gtags-gnu-global-with-vim-replace-ctags-and-cscope-15ae03f272e3
+aceofall/gtags.vim
+
+https://github.com/tranngocthachs/gtags-cscope-vim-plugin
