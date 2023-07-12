@@ -31,3 +31,7 @@ https://medium.com/heynote/use-gtags-gnu-global-with-vim-replace-ctags-and-cscop
 aceofall/gtags.vim
 
 https://github.com/tranngocthachs/gtags-cscope-vim-plugin
+
+
+vim tab
+https://blog.csdn.net/weixin_43274923/article/details/122301433
