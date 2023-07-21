@@ -23,6 +23,10 @@ endif
 
 -------------------------------------
 
+vim技巧 使用GNU Gloabl gtags 极简配置攻略
+* https://blog.csdn.net/a827143452/article/details/85927752
+
+
 https://hanleylee.com/articles/tracing-code-in-vim/
 
 
