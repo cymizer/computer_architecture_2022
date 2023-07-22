@@ -22,18 +22,6 @@ if !empty(gtags_file)
 endif
 
 -------------------------------------
-vim-airline
-```
-let g:airline#extensions#tabline#enabled = 1
-
-"let g:airline_powerline_fonts=1
-let g:airline#extensions#tabline#left_sep = '|'
-let g:airline#extensions#tabline#left_alt_sep = '||'
-let g:airline#extensions#tabline#formatter = 'unique_tail'
-
-let g:airline_theme= 'light'
-```
--------------------------------------
 
 vim技巧 使用GNU Gloabl gtags 极简配置攻略
 * https://blog.csdn.net/a827143452/article/details/85927752
@@ -60,3 +48,29 @@ https://github.com/tranngocthachs/gtags-cscope-vim-plugin
 vim tab
 
 https://blog.csdn.net/weixin_43274923/article/details/122301433
+
+-------------------------
+
+highlight search color change
+* https://stackoverflow.com/questions/7103173/vim-how-to-change-the-highlight-color-for-search-hits-and-quickfix-selection
+
+```
+hi LineNr cterm=bold ctermfg=Green ctermbg=NONE
+hi CursorLineNr cterm=bold ctermfg=Green ctermbg=NONE
+
+"hi Search cterm=NONE ctermfg=grey ctermbg=blue
+hi Search ctermbg=LightYellow  ctermfg=DarkRed
+```
+
+-------------------------------------
+vim-airline
+```
+let g:airline#extensions#tabline#enabled = 1
+
+"let g:airline_powerline_fonts=1
+let g:airline#extensions#tabline#left_sep = '|'
+let g:airline#extensions#tabline#left_alt_sep = '||'
+let g:airline#extensions#tabline#formatter = 'unique_tail'
+
+let g:airline_theme= 'light'
+```
