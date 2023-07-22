@@ -29,6 +29,9 @@ vim技巧 使用GNU Gloabl gtags 极简配置攻略
 Vim 之代码跟踪 gtags.files使用【转】
 * https://www.cnblogs.com/sky-heaven/p/15903745.html
 
+Vim Note
+* https://miaopei.github.io/2020/09/20/Vim/VimNote/
+
 https://hanleylee.com/articles/tracing-code-in-vim/
 
 
