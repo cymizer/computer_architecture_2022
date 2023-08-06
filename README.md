@@ -77,3 +77,32 @@ let g:airline#extensions#tabline#formatter = 'unique_tail'
 
 let g:airline_theme= 'light'
 ```
+
+----------------------------------
+add
+```
+"nnoremap <LEADER>bn :bn<CR>
+"nnoremap <LEADER>bp :bp<CR>
+
+""僅保留目前的視窗
+"nnoremap only :only<CR>
+""CTRL-W c   命令也可以退出当前窗口
+"":close 命令跟 CTRL-W c 效果相同。
+""
+""將目前分割的視窗重新平均分配大小:
+"
+""Ctrl-w =
+
+"Gtags search mode
+"https://learnku.com/articles/28249
+
+nnoremap <F5> :mksession! ~/.vim/sessions/vim_manual_session.vim <CR>
+nnoremap <F6> :source ~/.vim/sessions/vim_manual_session.vim <CR>
+
+" auto script
+autocmd VimLeave * mksession! ~/.vim/sessions/vim_auto_session.vim
+"autocmd VimEnter * source ~/.vim/sessions/.vim_auto_session.vim
+nnoremap <F4> :source ~/.vim/sessions/vim_manual_session.vim <CR>
+
+```
+
