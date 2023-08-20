@@ -105,4 +105,8 @@ autocmd VimLeave * mksession! ~/.vim/sessions/vim_auto_session.vim
 nnoremap <F4> :source ~/.vim/sessions/vim_manual_session.vim <CR>
 
 ```
-
+----------------------------------------
+intereseting word 
+```
+let g:interestingWordsGUIColors = ['#FE8A96', '#8CCBEA', '#A4E57E', '#FFDB72', '#FF7272', '#FFB3FF', '#9999FF', '#23E8E5', '#4D5BF7', '#F5EF7D', '#F7A531', '#D622F2', '#C6F0C0', '#7a9c72', '#f5aa0a', '#d193fa', '#a1a608', '#9505f5', '#f5f105']
+```
