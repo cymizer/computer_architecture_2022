@@ -120,6 +120,7 @@ https://ithelp.ithome.com.tw/articles/10268967
 -----------------------------------------
 bufexplorer  setting
 
+```
 """"""""""""""""""""""""""""""
 " BufExplorer
 """"""""""""""""""""""""""""""
@@ -135,3 +136,4 @@ let g:bufExplorerUseCurrentWindow=1  " Open in new window.
 nnoremap <silent> <F10> :BufExplorerVerticalSplit<CR>
 autocmd BufWinEnter \[Buf\ List\] setl nonumber 
 
+```
