@@ -116,3 +116,22 @@ let g:interestingWordsGUIColors = ['#FE8A96', '#8CCBEA', '#A4E57E', '#FFDB72', '
 riscv mret 
 
 https://ithelp.ithome.com.tw/articles/10268967
+
+-----------------------------------------
+bufexplorer  setting
+
+""""""""""""""""""""""""""""""
+" BufExplorer
+""""""""""""""""""""""""""""""
+let g:bufExplorerDisableDefaultKeyMapping=1 "Disable Default
+let g:bufExplorerDefaultHelp=0       " Do not show default help.
+let g:bufExplorerShowRelativePath=1  " Show relative paths.
+let g:bufExplorerSortBy='mru'        " Sort by most recently used.
+let g:bufExplorerSplitRight=0        " Split left.
+let g:bufExplorerSplitVertical=1     " Split vertically.
+let g:bufExplorerSplitVertSize = 30  " Split width
+let g:bufExplorerUseCurrentWindow=1  " Open in new window.
+
+nnoremap <silent> <F10> :BufExplorerVerticalSplit<CR>
+autocmd BufWinEnter \[Buf\ List\] setl nonumber 
+
