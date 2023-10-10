@@ -133,7 +133,19 @@ let g:bufExplorerSplitVertical=1     " Split vertically.
 let g:bufExplorerSplitVertSize = 30  " Split width
 let g:bufExplorerUseCurrentWindow=1  " Open in new window.
 
+--------------------------------------------
+
 nnoremap <silent> <F10> :BufExplorerVerticalSplit<CR>
 autocmd BufWinEnter \[Buf\ List\] setl nonumber 
+
+```
+
+-----------------
+
+note linux / vim
+```
+* https://chibli.pixnet.net/blog/post/67083738-%5B%E9%9B%BB%E8%85%A6%E6%8A%80%E5%B7%A7%5D-%E5%B8%B8%E7%94%A8%E7%9A%84-linux-%E6%8C%87%E4%BB%A4-%E5%BF%AB%E6%8D%B7%E9%8D%B5-%E8%88%87-vim-%E8%AA%9E
+
+* https://leojhonsong.github.io/zh-CN/2019/07/10/vim%E4%BD%BF%E7%94%A8%E6%9D%82%E8%AE%B0/
 
 ```
