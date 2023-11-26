@@ -148,4 +148,5 @@ note linux / vim
 
 * https://leojhonsong.github.io/zh-CN/2019/07/10/vim%E4%BD%BF%E7%94%A8%E6%9D%82%E8%AE%B0/
 
+* https://amikai.github.io/2020/11/28/vim-c-env-move/
 ```
