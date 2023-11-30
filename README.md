@@ -150,3 +150,9 @@ note linux / vim
 
 * https://amikai.github.io/2020/11/28/vim-c-env-move/
 ```
+
+-----------------
+
+```
+https://jason2506.gitbooks.io/cpumemory/content/cpu-caches/cpu-cache-implementation-details/multi-processor-support.html
+```
